@@ -5,10 +5,9 @@ num = input ()
 lastOneNumber = 1
 lastTwoNumber = 1
 print lastOneNumber
-print lastTwoNumber
 NewNumber = lastOneNumber + lastTwoNumber
-while NewNumber < num :
-	print NewNumber
+while lastTwoNumber  < num :
+	print lastTwoNumber
 
 	NewNumber = lastOneNumber + lastTwoNumber
 	lastOneNumber = lastTwoNumber
